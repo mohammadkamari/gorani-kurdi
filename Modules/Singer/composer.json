@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/singer",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Singer\\": "app/",
+            "Modules\\Singer\\Database\\Factories\\": "database/factories/",
+            "Modules\\Singer\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Singer\\Tests\\": "tests/"
+        }
+    }
+}
