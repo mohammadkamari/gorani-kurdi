@@ -1,0 +1,11 @@
+{
+    "name": "Singer",
+    "alias": "singer",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Singer\\Providers\\SingerServiceProvider"
+    ],
+    "files": []
+}
