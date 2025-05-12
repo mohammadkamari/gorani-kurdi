@@ -3,6 +3,6 @@
 use Illuminate\Support\Facades\Route;
 use Modules\Singer\Http\Controllers\SingerController;
 
-Route::prefix('v1')->group(function () {
-    Route::apiResource('singers', SingerController::class)->names('singers');
+Route::prefix('singers')->name('singers.')->group(function () {
+    Route::post('/singer', [SingerController::class, 'store'])->name('singer');
 });
